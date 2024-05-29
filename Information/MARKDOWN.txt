@@ -1,0 +1,22 @@
+#, ##, ###, ... are like h1, h2, h3
+
+Xmpl: # duabqfei
+
+[visible_text_in_link](link)
+
+Xmpl: [Click](link_)
+
+```programming_language_name
+    code
+```
+
+Xmpl: 
+```javascript
+    console.log(`Executed`)
+```
+
+- text_in_italic
+
+Xmpl:
+
+- Connectors

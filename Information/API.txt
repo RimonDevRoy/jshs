@@ -1,0 +1,10 @@
+API is the protocol of conversation between two languages, webapp, mobileapp, mobileapp-webapp, servers etc. We talk with people and receive some sign or word as response which acts as our protocol of the conversation such as: Hi, which means greeting. Similarly, API acts as protocol by sending various things and asking responses from other senders like if someone is using google to login into a webpage, the webpage will expect a token or proof of execution of login as token.
+
+API also acts as the data sent or received from others. For example, if I request data from a weather app, it will send me the data and it will be API.
+
+API can be interpretated as a contract between the offering agent and receiving agent. It offers various features based on the contract, that is, offers various options based on the data.
+
+An API (Application Programming Interface) is a set of features and rules that exist inside a software program (the application) enabling interaction with it through software - as opposed to a human user interface. The API can be seen as a simple contract (the interface) between the application offering it and other items, such as third-party software or hardware.
+
+In Web development, an API is generally a set of code features (e.g. methods, properties, events, and URLs) that a developer can use in their apps for interacting with components of a user's web browser, other software/hardware on the user's computer, or third-party websites and services.
+

@@ -1,0 +1,122 @@
+<!--
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-4</title>
+    <link rel="stylesheet" href="">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+        * {
+            margin: 0;
+            padding: 3px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        body {
+
+            color: white;
+            font: 1.5rem 'Nunito', 'Roboto';
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+
+        .container {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+            row-gap: 20px;
+            font-size: 2.5rem;
+        }
+
+        form input {
+            height: 10vh;
+            width: 50vw;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 2px 2px 10px .25px black;
+        }
+
+        form button {
+            height: 8vh;
+            width: 40vw;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 2px 2px 10px .25px black;
+            background-color: rgb(37, 215, 25);
+            color: white;
+            font-size: .5em;
+        }
+
+        .container,
+        #achievements {
+            background-color: #333;
+            min-width: 60vw;
+            min-height: 80vh;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .achBtn {
+            background-color: yellow;
+            height: 50px;
+            min-width: 150px;
+            font-size: 2rem;
+            font-family: inherit;
+            border: 5px dashed red;
+        }
+
+        .disp {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button type="button" class="achBtn">Achievements</button>
+        <h2>Number Guessing Game</h2>
+        <h3 id="guess-range">Guess a number from 1 to 100</h3>
+        <p id="total-attempts">You have 10 tries in total</p>
+        <form action="">
+            <label for="guess">Guess a number</label>
+            <input type="text" id="guess">
+            <button id="subt" type="submit">Submit Guess</button>
+        </form>
+        <div class="resultDiv">
+            <p id="prev-guesses">Previous Guesses: <span class="arr"></span></p>
+            <p id="remain-guesses">You have tries <span class="try"></span> remaining</p>
+            <p id="matched-guess"></p>
+        </div>
+    </div>
+    <hr>
+    <div id="achievements" class="disp">
+
+    </div>
+
+    <script src="./35jshs.js"></script>
+</body>
+
+</html>

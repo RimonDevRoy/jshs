@@ -1,0 +1,96 @@
+<!--
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-2</title>
+    <link rel="stylesheet" href="">
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+
+        body {
+            background-color: antiquewhite;
+            color: black;
+            font: 1.5rem 'Nunito', 'Roboto';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        p {
+            letter-spacing: .25rem;
+            font-style: italic;
+        }
+
+        .container {
+            min-height: 99%;
+            min-width: 40%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(36, 230, 230);
+            padding: 20px;
+            border-radius: 10px;
+            row-gap: 10px;
+        }
+
+        input {
+            height: 20px;
+            width: 90%;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+        }
+
+        button {
+            margin-top: 20px;
+            height: 20px;
+            width: 80%;
+        }
+
+        #result {
+            background-color: rgb(36, 230, 230);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div>
+            <p>Underweight if &lt;18</p>
+            <p>Fit if from 18 to 24</p>
+            <p>Overweight if &gt;24</p>
+        </div>
+        <form id="form" action="">
+            <label for="height">Height in CM</label>
+            <input type="text" id="height">
+            <label for="weight">Weight in KG</label>
+            <input id="weight" type="text">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="./35jshs.js"></script>
+</body>
+
+</html>
