@@ -73,7 +73,7 @@ An array containing the deleted elements.
 
 ● The last element of an object can be accessed by putting "(object_type.length - 1)" at index.
 
-● splice() does removes or adds elements to the spot of index or before index respectively.
+● splice() removes or adds elements to the spot of index or before index respectively.
 
 ● 
 
