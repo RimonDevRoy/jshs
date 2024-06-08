@@ -11,7 +11,7 @@ const var_name = new Number(value)
 
 ● 'toString()' method converts the number into a string.
 
-● 'toFixed(value)' method takes number of digits after decimal point to display that will be equal to the value given.
+● 'toFixed(value)' method takes number of digits to show after decimal point as value.
 
 ● 'toPrecision(range)' method returns a string of number equal to the number given as range. The starting of range is from non zero numbers.
 
