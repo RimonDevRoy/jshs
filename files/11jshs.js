@@ -35,7 +35,7 @@ But the methods inside them can be accessed without having to write the __proto_
 
 ● 'toUppercase()' method converts all the characters of the string into capital letters. This does not alter the actual string data because strings are stored in stack.
 
-● 'chatAt(index)' method returns the characted at the given index of the string
+● 'charAt(index)' method returns the characted at the given index of the string
 
 ● 'indexOf('character')' method returns the index of the character in the string. If there are multiple same characters, the index of the first one coming in the string is returned.
 
