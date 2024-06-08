@@ -26,7 +26,7 @@ const arr_name = new Array(el1, el2, el3,...)
 
 ● pop() pops the last element of the array no matter what argument is given.
 
-● unshift(e1, e2, e3,..) inserts elements in the given order to the beginning of the array. This is a troublesome method because in order to add an element at the beginning, the computer has to shift all the elements to the right one by one. This puts pressure to the computer.
+● unshift(e1, e2, e3,..) inserts elements in the given order to the beginning of the array. This is a troublesome method because in order to add an element at the beginning, the computer has to shift all the elements to the right one by one. This puts pressure to the computer. This is implied from the change of index of the elements in the array. This gives the lesson that whenever and wherever there is even a slight change in something in the program and inner structure of the program, there is some work done by computer. And Every change is an INDIVIDUAL WORK by computer. Thus, the more the changes, the more workload is on computer.
 
 ● shift() pops the first element of the array. 
 
