@@ -97,4 +97,3 @@ console.log(str2.trim());
 let Str = `rimon-the-kutta-as`
 let newStr = Str.split(`-`)
 console.log(newStr);
-console.log(words[0]);
