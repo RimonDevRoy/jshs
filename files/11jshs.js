@@ -35,18 +35,18 @@ But the methods inside them can be accessed without having to write the __proto_
 
 ● 'toUppercase()' method converts all the characters of the string into capital letters. This does not alter the actual string data because strings are stored in stack.
 
-● 'chatAt(index)' method returns the characted at the given index of the string
+● 'charAt(index)' method returns the character at the given index of the string
 
 ● 'indexOf('character')' method returns the index of the character in the string. If there are multiple same characters, the index of the first one coming in the string is returned.
 
-● 'substring(strtind, endind)' returns the string that can be made starting from the strtind and the character before endind. If endind is more than possible then it counts upto the end of the string and length is equal to the previous string(if strtend is 0). It starts from 0 if -ve values are given in strtind, and is invalid if -ve is given in endind.
+● 'substring(strtInd, endInd)' returns the string that can be made starting from the strtind and the character before endind. If endind is more than possible then it counts upto the end of the string and length is equal to the previous string(if strtInd is 0). It starts from 0 if -ve values are given in strtInd, and is invalid if -ve is given in endInd.
 
 ● 'slice' method is exactly like substring method but it also accepts negative values and these are the indices counted backwards.
 
 ● 'trim()' trims the extra things on both sides of the characters in the string. 'trimStart()' and 'trimEnd()' trim on the side that is written on the method.
 Extra things = whitespaces, line terminators
 
-● 'replace(`whattoreplace`, `whattoreplacewith`)' replaces the part of the string with the given value.
+● 'replace(`whatToReplace`, `whatToReplaceWith`)' replaces the part of the string with the given value.
 
 ● 'includes(`ministring`)' return true or false based on whether the string contains the given part of string.
 
@@ -97,4 +97,3 @@ console.log(str2.trim());
 let Str = `rimon-the-kutta-as`
 let newStr = Str.split(`-`)
 console.log(newStr);
-console.log(words[0]);

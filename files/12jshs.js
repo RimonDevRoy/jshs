@@ -11,7 +11,7 @@ const var_name = new Number(value)
 
 ● 'toString()' method converts the number into a string.
 
-● 'toFixed(value)' method takes number of digits after decimal point equal to the value given.
+● 'toFixed(value)' method takes number of digits to show after decimal point as value.
 
 ● 'toPrecision(range)' method returns a string of number equal to the number given as range. The starting of range is from non zero numbers.
 
@@ -35,7 +35,7 @@ locale = language-region
 
 ● 'max(v1, v2, v3, v4,..)' does vice-versa.
 
-● 'random()' returns a random value in range of [0-1) everytime. We can shift the shift by multiplying with the number that is equal to the shift, it basically means that if something starts from 'min' and then multiplied by 'x', then the starting point becomes 'min * x', that is, shifted by "min * (x - 1)" .We can add extra digits to ensure getting numbers in our range. We can add 10% of the number that is beign multiplied for range shift. For example
+● 'random()' returns a random value in range of [0-1) everytime. We can shift by multiplying with the number that is equal to the shift, it basically means that if something starts from 'min' and then multiplied by 'x', then the starting point becomes 'min * x', that is, shifted by "min * (x - 1)" .We can add extra digits to ensure getting numbers in our range. We can add the minimum range to ensure getting at least the number that is minimum in the range. For example
 
     0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
 If multiplied by 5
